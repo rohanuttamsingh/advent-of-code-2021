@@ -1,6 +1,6 @@
 def part1():
     num_increased = 0
-    with open('1_input.txt', 'r') as f:
+    with open('input/1.txt', 'r') as f:
         last = None
         while True:
             line = f.readline()
@@ -13,7 +13,7 @@ def part1():
 
 def part2():
     num_increased = 0
-    with open('1_input.txt', 'r') as f:
+    with open('input/1.txt', 'r') as f:
         last3 = [int(f.readline()), int(f.readline()), int(f.readline())]
         last_sum = sum(last3)
         while True:

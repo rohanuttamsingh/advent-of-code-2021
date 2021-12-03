@@ -25,7 +25,7 @@ def part2():
     return horiz * depth
 
 def parse():
-    with open('2_input.txt', 'r') as f:
+    with open('input/2.txt', 'r') as f:
         return [[line[0], int(line.split(' ')[1])] for line in f.read().strip().split('\n')]
 
 if __name__ == '__main__':
